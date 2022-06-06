@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- * this program prints the followin text
+ * main - this program prints the followin text
+ * Return: zero
  */
-int main(void){
-puts("\"Programming is like building a multilingual puzzle\n");
-return (0);
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle\n");
+	return (0);
 }
 
