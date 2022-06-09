@@ -1,10 +1,11 @@
 #include "main.h"
 /**
-*int_islower - checks for a lower case character 
-*and return 1 if is lower or 0 otherwise
+*_islower - checks for a lower case character
+*Return: 1 if is lower or 0 otherwise
+*@c: is the parametrer given to the funct
 */
 
-int _islower(int c )
+int _islower(int c)
 {
-	return(c >= 'a' && c <= 'z');
+	return (c >= 'a' && c <= 'z');
 }
