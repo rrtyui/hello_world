@@ -5,7 +5,7 @@
 *@n: is the parametrer given to the funct
 */
 
-int print_sign(int n)
+int print_sign(void)
 {
 	if (n > 0)
 	{
