@@ -1,21 +1,26 @@
 #include <stdio.h>
 /**
-*add - checks for a lower case character
+*print_to_98 - checks for a lower case character
 *@n: variable
-*@n1: second varible
-*Return: the sum of those two
 */
 
-int print_to_98(int n)
+void print_to_98(int n)
 {
-	int n, i;
-
-	for (i = n; i <= 98; i++)
+	if (n >= 98)
 	{
-		printf("%d",i);
-		printf(",");
-		printf(" ");
-		printf("\n");
+		while (n > 98)
+		{
+			printf("%d, ", n--);
+			printf("%d\n", n);
+		}
+	}
 
+	else
+	{
+		while (n < 98)
+		{
+			printf("%d, ", n++);
+			printf("%d\n", n);
+		}
 	}
 }
