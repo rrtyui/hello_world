@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
 *add - checks for a lower case character
 *@n: variable
