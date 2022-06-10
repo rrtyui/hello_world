@@ -7,7 +7,7 @@
 *Return: the sum of those two
 */
 
-void print_to_98(int n)
+int print_to_98(int n)
 {
 	int n, i;
 
