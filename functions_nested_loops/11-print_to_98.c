@@ -7,13 +7,13 @@
 *Return: the sum of those two
 */
 
-void print_to_98(int i)
+void print_to_98(int n)
 {
 	int n, i;
 
-	for (n = i; n <= 98; n++)
+	for (i = n; i <= 98; i++)
 	{
-		printf("%d",n);
+		printf("%d",i);
 		printf(",");
 		printf(" ");
 		printf("\n");
