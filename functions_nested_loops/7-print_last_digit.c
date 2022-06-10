@@ -16,9 +16,9 @@ int print_last_digit(int n)
 	}
 	if (x < 0)
 	{
-		x = -x
+		x = -x;
 
-		_puthcar(a + '0');
+		_puthcar(x + '0');
 	}
-	return (a);
+	return (x);
 }
