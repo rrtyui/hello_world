@@ -9,7 +9,7 @@
 
 void print_numbers(void)
 {
-	char n;
+	char n = 48;
 
 	for (n >= 48; n <= 58 ; n++)
 	{
