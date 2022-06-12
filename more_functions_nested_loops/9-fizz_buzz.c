@@ -1,17 +1,16 @@
 #include <stdio.h>
 
 /**
-* print_square - print lines in terminal
-* @size: size of the square
+* main - print lines in terminal
 */
 
-int main()
+int main(void)
 {
 	int n = 1;
 
 	while (n <= 100)
 	{	
-		if ((n % 3 ) == 0 && (n % 5) == 0)
+		if ((n % 3) == 0 && (n % 5) == 0)
 		{
 			printf("FizBuzz");
 		}
