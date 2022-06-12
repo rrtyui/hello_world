@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - print lines in terminal
+*main - print lines in terminal
 */
 
 int main(void)
@@ -9,7 +9,7 @@ int main(void)
 	int n = 1;
 
 	while (n <= 100)
-	{	
+	{
 		if ((n % 3) == 0 && (n % 5) == 0)
 		{
 			printf("FizBuzz");
@@ -29,11 +29,7 @@ int main(void)
 		}
 
 		printf(" ");
-		
-		if (n == 100)
-		{
-			continue;
-		}
+
 		n++;
 	}
 	printf("\n");
