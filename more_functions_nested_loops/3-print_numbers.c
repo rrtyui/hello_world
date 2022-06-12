@@ -2,9 +2,7 @@
 #include <stdio.h>
 
 /**
-* _isupper - checks for upper case
-*@c: variable
-* Return: 1 if its upper and cero otherwise
+* print_numbers - print numbers
 */
 
 void print_numbers(void)
