@@ -3,13 +3,14 @@
 
 /**
 * print_line - print lines in terminal
+* @n: numbers of times
 */
 
 void print_line(int n)
 {
 	int c = 0;
 
-	while (c <= n)
+	while (c < n)
 	{
 		_putchar('_');
 
