@@ -29,7 +29,11 @@ int main(void)
 		}
 
 		printf(" ");
-
+		
+		if (n == 100)
+		{
+			continue;
+		}
 		n++;
 	}
 	printf("\n");
