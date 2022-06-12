@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
-*main - print lines in terminal
+* main - print lines in terminal
+* Return: 0
 */
 
 int main(void)
@@ -28,11 +29,14 @@ int main(void)
 			printf("%d", n);
 		}
 
-		printf(" ");
+		if (n != 100)
+		{
+			printf(" ");
+		}
 
 		n++;
 	}
 	printf("\n");
 
-	return(0);
+	return (0);
 }
