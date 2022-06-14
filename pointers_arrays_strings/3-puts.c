@@ -1,8 +1,7 @@
 #include "main.h"
 /**
-* _strlen - return the length of a string
-* @s: parameterer
-* Return: l
+* _puts - return the length of a string
+* @str: parameterer
 */
 
 void _puts(char *str)
