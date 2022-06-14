@@ -7,7 +7,12 @@
 
 void print_rev(char *str)
 {
-	int i = _strlen(str);
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		l++;
+	}
 
 	while (str[i] != '\0')
 	{
