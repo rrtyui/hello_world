@@ -1,7 +1,7 @@
 
 #include "main.h"
 /**
-* _puts - return the length of a string
+* print_rev - return the length of a string
 * @str: parameterer
 */
 
