@@ -1,7 +1,8 @@
 #include "main.h"
 /**
-* print_diagonal - print diagonal lines
-* @n: parameterer
+* swap_int - swap the int values 
+* @b: parameterer
+* @a: paremetrer
 */
 
 void swap_int(int *a, int *b)
