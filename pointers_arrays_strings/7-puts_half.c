@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_rev - return the length of a string
+* puts_half - return the length of a string
 * @str: parameterer
 */
 
@@ -16,19 +16,19 @@ void puts_half(char *str)
 	{
 		l++;
 	}
-	
+
 	if (l % 2 == 0)
 	{
 		for (n = ((l - 1) / 2) + 1; n < l; n++)
 		{
 			_putchar(str[n]);
 		}
-                        _putchar('\n');
+		_putchar('\n');
 	}
 
 	else
 	{
-		for ( h = (l / 2) + 1; h < l; h++)
+		for (h = (l / 2) + 1; h < l; h++)
 		{
 			_putchar(str[h]);
 		}
