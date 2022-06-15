@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* print_rev - return the length of a string
-* @str: parameterer
+* print_array - return the length of a string
+* @a: parameterer
+* @n: parameterer
 */
 
 void print_array(int *a, int n)
