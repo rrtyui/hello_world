@@ -28,10 +28,10 @@ void puts_half(char *str)
 		}
 	}
 
-	for (h < l; h++)
+	/*for (h < l; h++)
 	{
 		_putchar(str[h]);
-	}
+	}*/
 
 
 }
