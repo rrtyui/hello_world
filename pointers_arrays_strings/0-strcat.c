@@ -1,24 +1,34 @@
 #include "main.h"
 /**
-* puts_half - return the length of a string
-* @str: parameterer
+*  _strcat - return the length of a string
+* @src: parameterer
+* @dest: parametrer
+* Return: dest
 */
 
 char *_strcat(char *dest, char *src)
 {
-	int l;
+	int i, j;
 
-	while (dest[l] != '\0')
+	i = 0;
+
+	j = 0;
+
+	while(dest[i] != '\0')
 	{
-		l++;
+		i++;
 	}
 
-	char *pt = dest + l;
-
-	while (src != '\0')
+	while (src[j] != '\0')
 	{
-		ptr = '\0';
+
+		dest[i] = src[j];
+
+		j++;
+		i++;
 	}
+
+	dest [i] = '\0';
 
 	return (dest);
 }
