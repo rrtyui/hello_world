@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _strncat - return the length of a string
+* _strncpy - return the length of a string
 * @src: parameterer
 * @dest: parametrer
 * @n: paremetrer
@@ -19,6 +19,6 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[i] = '\0';
 	}
-	
+
 	return (dest);
 }
