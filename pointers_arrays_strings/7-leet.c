@@ -1,9 +1,10 @@
 #include "main.h"
 /**
 * leet - return the length of a string
-* @src: parameterer
+* @str: parameterer
 * Return: str
 */
+
 char *leet(char *str)
 {
 	int indx1 = 0, indx2;
