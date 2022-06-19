@@ -6,7 +6,7 @@
 * @n: paremetrer
 */
 
-void *_memset(void *s, int c, size_t n)
+void *_memset(void *s, int c, unsigned n)
 {
 	unsigned int index;
 	unsigned char *memory = s, value = c;
