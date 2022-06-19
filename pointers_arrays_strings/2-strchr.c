@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- *_strncpy - function
- *@dest: paremetrer
- *@src: paremetrer
- *@n: paremetrer
- *Return: dest
+ *_strchr - function
+ *@s: paremetrer
+ *@c: paremetrer
+ *Return: null
  */
 char *_strchr(char *s, char c)
 {
