@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+* _print_rev_recursion - return the length of a string
+* @s: parametrer
+*/
 
 
 void _print_rev_recursion(char *s)
