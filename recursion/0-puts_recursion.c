@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+* _puts_recursion - return the length of a string
+* @s:parametere
+*/
 
 
 void _puts_recursion(char *s)
