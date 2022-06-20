@@ -2,7 +2,7 @@
 
 /**
  *isqrt_rec - calculate square root
- *@i: par 
+ *@i: par
  *@n: par
  *Return: sqrt root
  */
@@ -23,6 +23,12 @@ int isqrt_rec(int i, int n)
 		return (isqrt_rec(i + 1, n));
 	}
 }
+
+/**
+ *_sqrt_recursion - actual function
+ *@n: para
+ *Return: para
+ */
 
 int _sqrt_recursion(int n)
 {
