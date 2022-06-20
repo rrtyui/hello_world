@@ -23,3 +23,8 @@ int isqrt_rec(int i, int n)
 		return (isqrt_rec(i + 1, n));
 	}
 }
+
+int _sqrt_recursion(int n)
+{
+	return (isqrt_rec(0, n));
+}
