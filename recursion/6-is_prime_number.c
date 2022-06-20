@@ -27,7 +27,7 @@ int check(int n, int i)
 }
 
 /**
- *is_prime_number - prime 
+ *is_prime_number - prime
  *@n: par
  *Return: function
  */
