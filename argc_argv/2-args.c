@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+/**
+ *main  - main function
+ *@argc: arg counter
+ *@argv: arg vector
+ *Return: 0
+ */
 int main(int argc, char *argv[])
 {
 	int i;
