@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-int main (int __atribute__ ((__unused__)) argc,char *argv[])
+int main (int __attribute__ ((__unused__)) argc,char *argv[])
 {
 	printf("%s",argv[0]);
 
