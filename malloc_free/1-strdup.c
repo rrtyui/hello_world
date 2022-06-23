@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-* _strdup - duplicate a string 
+* _strdup - duplicate a string
 * @str: parameterer
 * Return: null if its 0 and pointer if its succes
 */
@@ -24,7 +24,7 @@ char *_strdup(char *str)
 
 	strdup = malloc(sizeof(char) * (l + 1));
 
-	if(strdup == NULL)
+	if (strdup == NULL)
 	{
 		return (NULL);
 	}
