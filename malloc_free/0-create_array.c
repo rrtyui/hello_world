@@ -1,12 +1,16 @@
 #include <stdlib.h>
 #include "main.h"
-
-
+/**
+* create_array - return an array using malloc
+* @size: parameterer
+* @c: parametrer
+* Return: null if its 0 and pointer if its succes
+*/
 char *create_array(unsigned int size, char c)
 {
 	char *arr;
 
-	unsigned i;
+	unsigned int i;
 
 	if (size == 0)
 	{
