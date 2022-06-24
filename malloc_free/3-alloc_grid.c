@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
-/*
-* alloc_grid  - return an array using malloc
+/**
+*alloc_grid - return an array using malloc
 * @width: parameterer
 * @height: parametrer
 * Return: null if its 0 and pointer if its succes
