@@ -6,7 +6,7 @@
  * @min: par
  * @max: par
  *
- * Return:
+ * Return: array 
  */
 int *array_range(int min, int max)
 {
