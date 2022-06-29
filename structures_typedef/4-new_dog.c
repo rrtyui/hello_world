@@ -5,6 +5,7 @@
  *@name: par
  *@age:  par
  *@owner: par
+ *Return: function
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
