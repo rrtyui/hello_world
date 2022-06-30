@@ -1,10 +1,10 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - Executes a function 
+ * array_iterator - Executes a function
  * @array: The array.
  * @size: the size
- * @action: A pointer 
+ * @action: A pointer
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
