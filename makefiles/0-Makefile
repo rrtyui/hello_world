@@ -1,0 +1,4 @@
+#This rule compile the prime program
+school: main.c school.c
+	gcc -o school main.c school.c
+all:
