@@ -1,8 +1,10 @@
 #ifndef sing_list
 #define sing_list
 
+#include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * struct list_s - singly linked list
