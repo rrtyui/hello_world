@@ -9,11 +9,18 @@
 size_t print_list(const list_t *h)
 {
 	const list_t *tmp;
-	unsigned int i;
-
+	unsigned int i;	
+	
 	tmp = h;
+
+
 	for (i = 0; tmp; i++)
 	{
+		if (tmp == NULL)
+		{
+			printf("[0] (nill)\n");
+		}
+
 		printf("[%u] %s\n", tmp->len, tmp->str);
 		tmp = tmp->next;
 	}
