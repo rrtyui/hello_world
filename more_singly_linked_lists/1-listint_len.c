@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- *listint_len - returns the number of elements listed 
+ *listint_len - returns the number of elements listed
  *@h: pointer
  *Return: index
  */
