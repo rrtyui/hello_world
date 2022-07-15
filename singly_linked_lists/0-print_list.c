@@ -21,8 +21,11 @@ size_t print_list(const list_t *h)
 			printf("[0] (nill)\n");
 		}
 
-		printf("[%u] %s\n", tmp->len, tmp->str);
-		tmp = tmp->next;
+		else
+		{
+			printf("[%u] %s\n", tmp->len, tmp->str);
+			tmp = tmp->next;
+		}
 	}
 	return (i);
 }
